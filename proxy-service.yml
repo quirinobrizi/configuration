@@ -1,0 +1,18 @@
+# Spring properties
+spring:
+  application:
+     name: proxy-service
+
+# HTTP Server
+server:
+  port: 8083   # HTTP (Tomcat) port
+  
+zuul:
+  ignoredPatterns: /health
+  routes:
+    accounts:
+      path: /accounts/**
+      serviceId: account-service
+    organizations:
+      path: /organizations/**
+      serviceId: organization-service
