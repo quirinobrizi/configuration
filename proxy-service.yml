@@ -13,6 +13,10 @@ zuul:
     accounts:
       path: /accounts/**
       serviceId: account-service
+      ribbon:
+        read-timeout: 30000
     organizations:
       path: /organizations/**
       serviceId: organization-service
+      ribbon:
+        read-timeout: 30000
