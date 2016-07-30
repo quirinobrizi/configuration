@@ -1,3 +1,6 @@
 # HTTP Server
 server:
   port: 8081   # HTTP (Tomcat) port
+
+db:
+  username: username
