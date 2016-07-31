@@ -13,9 +13,11 @@ zuul:
   routes:
     accounts:
       path: /accounts/**
+      stripPrefix: false
       serviceId: account-service
     organizations:
       path: /organizations/**
+      stripPrefix: false
       serviceId: organization-service
 
 account-service:
