@@ -9,6 +9,7 @@ server:
   
 zuul:
   ignoredPatterns: /health
+  stripPrefix: false
   routes:
     accounts:
       path: /accounts/**
