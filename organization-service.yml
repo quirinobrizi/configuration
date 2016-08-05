@@ -1,3 +1,11 @@
 # HTTP Server
 server:
   port: 8082   # HTTP (Tomcat) port
+
+solr:
+  server:
+    url: http://localhost:8983
+
+spring:
+  profiles:
+    active: uat
