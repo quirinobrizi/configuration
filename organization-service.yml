@@ -4,7 +4,7 @@ server:
 
 solr:
   server:
-    url: http://localhost:8983
+    url: http://solr:8983
 
 spring:
   profiles:
