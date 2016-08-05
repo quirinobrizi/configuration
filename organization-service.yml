@@ -11,4 +11,4 @@ server:
 
 solr:
   server:
-    url: http://solr:8983
+    url: http://solr:8983/solr
