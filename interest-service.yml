@@ -1,0 +1,19 @@
+# Spring properties
+spring:
+  application:
+     name: interest-service
+  profiles:
+    active: local
+  data:
+    mongodb:
+      database: interests
+      port: 27017
+      host: mongo
+
+# HTTP Server
+server:
+  port: 8084   # HTTP (Tomcat) port
+  
+solr:
+  server:
+    url: http://localhost:8983/solr
